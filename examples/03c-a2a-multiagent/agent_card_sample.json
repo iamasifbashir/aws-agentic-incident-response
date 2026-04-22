@@ -1,0 +1,25 @@
+{
+    "capabilities": {
+        "streaming": true
+    },
+    "defaultInputModes": [
+        "text"
+    ],
+    "defaultOutputModes": [
+        "text"
+    ],
+    "description": "Proposes concrete remediations for AWS operational issues. Call with a plain-language issue description and an optional service hint.",
+    "name": "Remediation Agent",
+    "preferredTransport": "JSONRPC",
+    "protocolVersion": "0.3.0",
+    "skills": [
+        {
+            "description": "Propose a concrete remediation for an AWS issue.",
+            "id": "suggest_remediation",
+            "name": "suggest_remediation",
+            "tags": []
+        }
+    ],
+    "url": "http://0.0.0.0:9000/",
+    "version": "1.0.0"
+}
